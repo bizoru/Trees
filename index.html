@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+  <script type="text/javascript" src="core.js"></script>
+
+  <script type="text/javascript" src="kinetic.js"></script>
+  <script defer="defer" src="kinectic_core.js"> </script>
+
+  <style>
+      #container {
+
+
+      	border: 1px solid #dadada;
+
+      	width: 500px;
+      	height: 500px;
+        float: left;
+      }
+      #resultados {
+
+        float: left;
+        margin-left: 10px;
+
+
+      }
+
+      h1 {
+        font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+      }
+
+      p {
+
+        font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+      }
+
+
+  </style>
+</head>
+<h1> Recorridos de Arboles </h1>
+<div id="container">
+	
+</div>
+<div id="resultados">
+  <p> Recorrido en Preorden (Raiz,Iz,Derecha) </p>
+  <p id="recorrido_preorden"></p>
+  <p> Recorrido en Post Orden (Iz,Der,Raiz) </p>
+  <p id="recorrido_postorden"></p>
+  <p> Recorrido en In Orden (Iz,Raiz,Derecha)</p>
+  <p id="recorrido_inorden"></p>
+</div>
+
